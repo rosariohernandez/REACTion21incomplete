@@ -1,3 +1,52 @@
-# REACTion21
+## - work in progress - ##
 
-REACTion21 . An exercise tracking web application that tracks user workouts and generates reports.  REACTion21  application is able to register user, add and customize a profile, add exercises ir order to create and customize workouts, as well as generate either weekly or monthly reports.  My role: Developer for the Profile functionality. Technologies used: MERN stack (MongoDb, Express, React and Node). This is an ongoing team project of 4 members that is still in the development phase and is yet to be deployed soon.
+### Team project, built with MERN stack (MongoDB, Express, React, Node.js)
+## Personal Contributions
+#### - Ella C Qi
+ * Design lead
+ * User authentication features: user login & user register
+ * Files
+   * **backend** /
+     * config/ keys.js, passport.js
+     * models/ User.js
+     * routes/ api/ users.js
+     * validation/ login.js, register.js
+   * **frontend** src/
+     * actions/ authActions.js, types.js
+     * components/
+       * auth/ Login.js, Register.js
+       * dashboard/ Dashboard.js
+       * layout/ Landing.js
+       * private-route/ PrivateRoute.js
+     * css/ main.css, util.css
+     * fonts
+     * images
+     * store.js
+     
+     
+     
+
+## To start
+
+  clone repository
+  
+   
+  $npm install  | to install all packages
+  
+  $npm run dev | to start back and front end
+
+### Screenshots
+ - index page
+![welcome](public/welcome.png)
+ - login page
+![welcome](public/login.png)
+ - register page
+![welcome](public/register.png)
+ - dashboard page
+![welcome](public/dash.png)
+
+NEXT STEP
+
+    1. Usability and accessibility testing
+    2. UI optimization
+    3. Navigation link optimization
