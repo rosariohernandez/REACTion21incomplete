@@ -1,4 +1,4 @@
-## - work in progress - ##
+
 
 ### Team project, built with MERN stack (MongoDB, Express, React, Node.js)
 ### -WORK IN PROGRESS- ###
